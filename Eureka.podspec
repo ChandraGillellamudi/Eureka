@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Eureka'
+  s.name             = 'GHEureka'
   s.version          = '1.0'
   s.license          = 'MIT'
   s.author           = { 'username' => 'cgillellamudi@groundhogapps.com' }
