@@ -81,7 +81,7 @@
 		28EEC0331C7E64AB00300699 /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859CE1D1C7E08300002982F /* PopoverSelectorRow.swift */; };
 		3973000A1DF0E2A000080E4D /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397300091DF0E2A000080E4D /* PickerInputRow.swift */; };
 		49ADC7F91C8A83240073952B /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADC7F81C8A83240073952B /* StepperRow.swift */; };
-		51729DF61B9A4F5E004A00EB /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51729DEB1B9A4F5E004A00EB /* Eureka.framework */; };
+		51729DF61B9A4F5E004A00EB /* GHEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51729DEB1B9A4F5E004A00EB /* GHEureka.framework */; };
 		51729E671B9A5FA5004A00EB /* Eureka.h in Headers */ = {isa = PBXBuildFile; fileRef = 51729E661B9A5FA5004A00EB /* Eureka.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		798C5ADA1EF1E35600A21F52 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C5AD91EF1E35600A21F52 /* SwipeActions.swift */; };
 		879CBD2820BD749400480F40 /* CustomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879CBD2720BD749400480F40 /* CustomRow.swift */; };
@@ -180,9 +180,9 @@
 		28EEBFFC1C7E25F100300699 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Cell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		397300091DF0E2A000080E4D /* PickerInputRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerInputRow.swift; sourceTree = "<group>"; };
 		49ADC7F81C8A83240073952B /* StepperRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperRow.swift; sourceTree = "<group>"; };
-		51729DEB1B9A4F5E004A00EB /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51729DEB1B9A4F5E004A00EB /* GHEureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHEureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51729DF01B9A4F5E004A00EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51729DF51B9A4F5E004A00EB /* EurekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51729DF51B9A4F5E004A00EB /* GHEurekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHEurekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51729DFC1B9A4F5E004A00EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Tests/Info.plist; sourceTree = "<group>"; };
 		51729E661B9A5FA5004A00EB /* Eureka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Eureka.h; path = Source/Eureka.h; sourceTree = SOURCE_ROOT; };
 		798C5AD91EF1E35600A21F52 /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51729DF61B9A4F5E004A00EB /* Eureka.framework in Frameworks */,
+				51729DF61B9A4F5E004A00EB /* GHEureka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +342,8 @@
 		51729DEC1B9A4F5E004A00EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51729DEB1B9A4F5E004A00EB /* Eureka.framework */,
-				51729DF51B9A4F5E004A00EB /* EurekaTests.xctest */,
+				51729DEB1B9A4F5E004A00EB /* GHEureka.framework */,
+				51729DF51B9A4F5E004A00EB /* GHEurekaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -399,9 +399,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51729DEA1B9A4F5E004A00EB /* Eureka */ = {
+		51729DEA1B9A4F5E004A00EB /* GHEureka */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51729DFF1B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildConfigurationList = 51729DFF1B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "GHEureka" */;
 			buildPhases = (
 				51729DE61B9A4F5E004A00EB /* Sources */,
 				51729DE71B9A4F5E004A00EB /* Frameworks */,
@@ -412,14 +412,14 @@
 			);
 			dependencies = (
 			);
-			name = Eureka;
+			name = GHEureka;
 			productName = Eureka;
-			productReference = 51729DEB1B9A4F5E004A00EB /* Eureka.framework */;
+			productReference = 51729DEB1B9A4F5E004A00EB /* GHEureka.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		51729DF41B9A4F5E004A00EB /* EurekaTests */ = {
+		51729DF41B9A4F5E004A00EB /* GHEurekaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51729E021B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "EurekaTests" */;
+			buildConfigurationList = 51729E021B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "GHEurekaTests" */;
 			buildPhases = (
 				51729DF11B9A4F5E004A00EB /* Sources */,
 				51729DF21B9A4F5E004A00EB /* Frameworks */,
@@ -430,9 +430,9 @@
 			dependencies = (
 				51729DF81B9A4F5E004A00EB /* PBXTargetDependency */,
 			);
-			name = EurekaTests;
+			name = GHEurekaTests;
 			productName = EurekaTests;
-			productReference = 51729DF51B9A4F5E004A00EB /* EurekaTests.xctest */;
+			productReference = 51729DF51B9A4F5E004A00EB /* GHEurekaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -457,7 +457,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 51729DE51B9A4F5E004A00EB /* Build configuration list for PBXProject "Eureka" */;
+			buildConfigurationList = 51729DE51B9A4F5E004A00EB /* Build configuration list for PBXProject "GHEureka" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -470,8 +470,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51729DEA1B9A4F5E004A00EB /* Eureka */,
-				51729DF41B9A4F5E004A00EB /* EurekaTests */,
+				51729DEA1B9A4F5E004A00EB /* GHEureka */,
+				51729DF41B9A4F5E004A00EB /* GHEurekaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -597,7 +597,7 @@
 /* Begin PBXTargetDependency section */
 		51729DF81B9A4F5E004A00EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51729DEA1B9A4F5E004A00EB /* Eureka */;
+			target = 51729DEA1B9A4F5E004A00EB /* GHEureka */;
 			targetProxy = 51729DF71B9A4F5E004A00EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -730,6 +730,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 5.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.Eureka;
@@ -754,6 +755,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 5.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.Eureka;
@@ -798,7 +800,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51729DE51B9A4F5E004A00EB /* Build configuration list for PBXProject "Eureka" */ = {
+		51729DE51B9A4F5E004A00EB /* Build configuration list for PBXProject "GHEureka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51729DFD1B9A4F5E004A00EB /* Debug */,
@@ -807,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51729DFF1B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+		51729DFF1B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "GHEureka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51729E001B9A4F5E004A00EB /* Debug */,
@@ -816,7 +818,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51729E021B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "EurekaTests" */ = {
+		51729E021B9A4F5E004A00EB /* Build configuration list for PBXNativeTarget "GHEurekaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51729E031B9A4F5E004A00EB /* Debug */,

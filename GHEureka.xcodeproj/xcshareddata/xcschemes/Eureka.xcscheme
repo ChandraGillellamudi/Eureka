@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51729DEA1B9A4F5E004A00EB"
                BuildableName = "Eureka.framework"
-               BlueprintName = "Eureka"
-               ReferencedContainer = "container:Eureka.xcodeproj">
+               BlueprintName = "GHEureka"
+               ReferencedContainer = "container:GHEureka.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "51729DEA1B9A4F5E004A00EB"
+            BuildableName = "Eureka.framework"
+            BlueprintName = "GHEureka"
+            ReferencedContainer = "container:GHEureka.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -34,22 +43,11 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51729DF41B9A4F5E004A00EB"
                BuildableName = "EurekaTests.xctest"
-               BlueprintName = "EurekaTests"
-               ReferencedContainer = "container:Eureka.xcodeproj">
+               BlueprintName = "GHEurekaTests"
+               ReferencedContainer = "container:GHEureka.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51729DEA1B9A4F5E004A00EB"
-            BuildableName = "Eureka.framework"
-            BlueprintName = "Eureka"
-            ReferencedContainer = "container:Eureka.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -66,12 +64,10 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51729DEA1B9A4F5E004A00EB"
             BuildableName = "Eureka.framework"
-            BlueprintName = "Eureka"
-            ReferencedContainer = "container:Eureka.xcodeproj">
+            BlueprintName = "GHEureka"
+            ReferencedContainer = "container:GHEureka.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -84,8 +80,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51729DEA1B9A4F5E004A00EB"
             BuildableName = "Eureka.framework"
-            BlueprintName = "Eureka"
-            ReferencedContainer = "container:Eureka.xcodeproj">
+            BlueprintName = "GHEureka"
+            ReferencedContainer = "container:GHEureka.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
