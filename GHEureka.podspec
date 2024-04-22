@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GHEureka'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.license          = 'MIT'
   s.author           = { 'username' => 'cgillellamudi@groundhogapps.com' }
   s.summary          = 'Custom pod creation for Eureka' 
